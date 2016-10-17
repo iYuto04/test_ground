@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D102E6571DB46DCF003C2733 /* modelOfList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D102E6561DB46DCF003C2733 /* modelOfList.swift */; };
 		D160FC891DB04B65008276F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D160FC881DB04B65008276F0 /* AppDelegate.swift */; };
 		D160FC8B1DB04B65008276F0 /* listViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D160FC8A1DB04B65008276F0 /* listViewController.swift */; };
 		D160FC901DB04B65008276F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D160FC8F1DB04B65008276F0 /* Assets.xcassets */; };
@@ -33,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D102E6561DB46DCF003C2733 /* modelOfList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = modelOfList.swift; sourceTree = "<group>"; };
 		D160FC851DB04B65008276F0 /* testground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D160FC881DB04B65008276F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D160FC8A1DB04B65008276F0 /* listViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = listViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 			children = (
 				D160FC881DB04B65008276F0 /* AppDelegate.swift */,
 				D160FC8A1DB04B65008276F0 /* listViewController.swift */,
+				D102E6561DB46DCF003C2733 /* modelOfList.swift */,
 				D160FC8F1DB04B65008276F0 /* Assets.xcassets */,
 				D160FC911DB04B65008276F0 /* LaunchScreen.storyboard */,
 				D160FC941DB04B65008276F0 /* Info.plist */,
@@ -254,6 +257,7 @@
 			files = (
 				D160FC8B1DB04B65008276F0 /* listViewController.swift in Sources */,
 				D160FC891DB04B65008276F0 /* AppDelegate.swift in Sources */,
+				D102E6571DB46DCF003C2733 /* modelOfList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
