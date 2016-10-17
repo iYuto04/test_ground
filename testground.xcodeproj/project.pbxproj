@@ -8,8 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D160FC891DB04B65008276F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D160FC881DB04B65008276F0 /* AppDelegate.swift */; };
-		D160FC8B1DB04B65008276F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D160FC8A1DB04B65008276F0 /* ViewController.swift */; };
-		D160FC8E1DB04B65008276F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D160FC8C1DB04B65008276F0 /* Main.storyboard */; };
+		D160FC8B1DB04B65008276F0 /* listViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D160FC8A1DB04B65008276F0 /* listViewController.swift */; };
 		D160FC901DB04B65008276F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D160FC8F1DB04B65008276F0 /* Assets.xcassets */; };
 		D160FC931DB04B65008276F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D160FC911DB04B65008276F0 /* LaunchScreen.storyboard */; };
 		D160FC9E1DB04B65008276F0 /* testgroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D160FC9D1DB04B65008276F0 /* testgroundTests.swift */; };
@@ -36,8 +35,7 @@
 /* Begin PBXFileReference section */
 		D160FC851DB04B65008276F0 /* testground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D160FC881DB04B65008276F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D160FC8A1DB04B65008276F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D160FC8D1DB04B65008276F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D160FC8A1DB04B65008276F0 /* listViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = listViewController.swift; sourceTree = "<group>"; };
 		D160FC8F1DB04B65008276F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D160FC921DB04B65008276F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D160FC941DB04B65008276F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -98,8 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				D160FC881DB04B65008276F0 /* AppDelegate.swift */,
-				D160FC8A1DB04B65008276F0 /* ViewController.swift */,
-				D160FC8C1DB04B65008276F0 /* Main.storyboard */,
+				D160FC8A1DB04B65008276F0 /* listViewController.swift */,
 				D160FC8F1DB04B65008276F0 /* Assets.xcassets */,
 				D160FC911DB04B65008276F0 /* LaunchScreen.storyboard */,
 				D160FC941DB04B65008276F0 /* Info.plist */,
@@ -231,7 +228,6 @@
 			files = (
 				D160FC931DB04B65008276F0 /* LaunchScreen.storyboard in Resources */,
 				D160FC901DB04B65008276F0 /* Assets.xcassets in Resources */,
-				D160FC8E1DB04B65008276F0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,7 +252,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D160FC8B1DB04B65008276F0 /* ViewController.swift in Sources */,
+				D160FC8B1DB04B65008276F0 /* listViewController.swift in Sources */,
 				D160FC891DB04B65008276F0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,14 +289,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D160FC8C1DB04B65008276F0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D160FC8D1DB04B65008276F0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D160FC911DB04B65008276F0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -482,6 +470,7 @@
 				D160FCAF1DB04B65008276F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D160FCB01DB04B65008276F0 /* Build configuration list for PBXNativeTarget "testgroundTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +479,7 @@
 				D160FCB21DB04B65008276F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D160FCB31DB04B65008276F0 /* Build configuration list for PBXNativeTarget "testgroundUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +488,7 @@
 				D160FCB51DB04B65008276F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
